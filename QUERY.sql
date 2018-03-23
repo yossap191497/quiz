@@ -34,5 +34,5 @@ SELECT  CONCAT(CONCAT(E.FULL_NAME ,' - '),EM.FULL_NAME ) FROM  EMPLOYEES E
 INNER JOIN EMPLOYEES EM ON E.ID = EM.MANAGER_ID;
 --Write a SQL query to fetch all the employees which first name is Kermit
 SELECT * FROM  EMPLOYEES 
-WHERE FULL_NAME = '%Kermit';
+WHERE FULL_NAME = 'Kermit%';
 
