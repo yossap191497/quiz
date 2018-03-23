@@ -1,0 +1,16 @@
+https://github.com/yossap191497/quiz.git
+======================
+Be careful with the names of the foreigns keys (Don't change them)
+Salaries table:
+employee_id NOT NULL
+salary NOT NULL
+salary must accept values greater than 500
+Employees table:
+Date of joining NOT NULL
+full_name NOT NULL
+Projects table:
+Code NOT NULL
+Budget NOT NULL
+
+
+====================
